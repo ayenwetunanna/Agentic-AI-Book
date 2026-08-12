@@ -14,6 +14,19 @@ flowchart TD
     S7 --> S8["နောက်ဆုံး\nကိုယ်ပိုင် Project"]
     S8 --> Goal["🏆 Engineer မျက်စိရ\nFramework မဟုတ်"]
 ```
+```mermaid
+flowchart TD
+    M1["✅ Milestone 1\nLLM, prompt, context, tool calling\nရှင်းပြနိုင်"]
+    M2["✅ Milestone 2\nWorkflow vs Agent ခွဲနိုင်"]
+    M3["✅ Milestone 3\nToy loop ရေးပြီး\nmax steps, stop conditions ထည့်နိုင်"]
+    M4["✅ Milestone 4\nTool permission:\nread scope, mutation scope,\napproval rule ရေးနိုင်"]
+    M5["✅ Milestone 5\nCase studies 4 ခုကို\ndiagram ဖြင့်ရှင်းပြနိုင်"]
+    M6["✅ Milestone 6\nRead-only assistant design\n(mutation ကို human approval ဖြင့်သာ)"]
+
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6
+
+    M6 --> Final["🏆 အရေးကြီးဆုံး Milestone:\nAgent ကိုမြင်တိုင်း —\nဘာမြင်သလဲ? ဘာလုပ်ခွင့်ရှိသလဲ?\nဘယ်အချိန်ရပ်သလဲ?\nအမှားဖြစ်ရင် ဘယ် trace ကြည့်မလဲ?\nဟုမေးတတ်ခြင်း"]
+```
 
 ### အရာအားလုံးကို တစ်ပြိုင်နက် မစားပါနှင့်
 
