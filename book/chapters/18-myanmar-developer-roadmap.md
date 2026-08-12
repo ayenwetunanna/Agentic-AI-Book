@@ -1,5 +1,20 @@
 # 18-myanmar-developer-roadmap
 
+```mermaid
+flowchart TD
+    Start["🎯 Start Here"] --> S1
+
+    S1["အဆင့် ၁\nစာရေးတော်ကိုသိခြင်း\n(Know the Model)"]
+    S1 --> S2["အဆင့် ၂\nWorkflow vs Agent\nခွဲခြင်း"]
+    S2 --> S3["အဆင့် ၃\nLoop & Harness"]
+    S3 --> S4["အဆင့် ၄\nPrompt → Context\nEngineering"]
+    S4 --> S5["အဆင့် ၅\nRuntime Patterns"]
+    S5 --> S6["အဆင့် ၆\nRepo-backed\nCase Studies"]
+    S6 --> S7["အဆင့် ၇\nDevOps & Coding\nAgent Thinking"]
+    S7 --> S8["နောက်ဆုံး\nကိုယ်ပိုင် Project"]
+    S8 --> Goal["🏆 Engineer မျက်စိရ\nFramework မဟုတ်"]
+```
+
 ### အရာအားလုံးကို တစ်ပြိုင်နက် မစားပါနှင့်
 
 Agentic AI လောကထဲဝင်လာသောအခါ စာဖတ်သူသည် စကားလုံးများစွာကို တစ်ပြိုင်နက်တွေ့လိမ့်မည်။ LLM, Transformer, Tool Calling, MCP, RAG, LangGraph, DeepAgents, Skill, Sub-agent, Browser agent, DevOps automation, Coding agent စသည်တို့ဖြစ်သည်။ ထိုအရာများကို တစ်နေ့တည်းအကုန်ဖတ်ရန်ကြိုးစားလျှင် စာအုပ်တစ်အုပ်လုံးကိုမစားဘဲဝါးရန်ကြိုးစားသောသူနှင့်တူသွားမည်။
